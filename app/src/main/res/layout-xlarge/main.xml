@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ca.kylelee.audiofx.main"
+    android:background="@android:color/black">
+
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="6"
+        android:id="@+id/myGridLayout">
+
+        <ImageButton
+            android:layout_width="175dp"
+            android:layout_height="160dp"
+            android:id="@+id/btnChill"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:src="@drawable/btnchillselector"
+            android:scaleType="fitXY"
+            android:padding="0dp"
+            android:clickable="true"
+            android:background="@null"/>
+
+        <ImageButton
+            android:layout_width="175dp"
+            android:layout_height="160dp"
+            android:id="@+id/btnLounge"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:src="@drawable/btnloungeselector"
+            android:scaleType="fitXY"
+            android:padding="0dp"
+            android:clickable="true"
+            android:background="@null"/>
+
+        <ImageButton
+            android:layout_width="175dp"
+            android:layout_height="160dp"
+            android:id="@+id/btnDriving"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:src="@drawable/btndrivingselector"
+            android:scaleType="fitXY"
+            android:padding="0dp"
+            android:clickable="true"
+            android:background="@null"/>
+
+        <ImageButton
+            android:layout_width="175dp"
+            android:layout_height="160dp"
+            android:id="@+id/btnWorkout"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:src="@drawable/btnworkoutselector"
+            android:scaleType="fitXY"
+            android:padding="0dp"
+            android:clickable="true"
+            android:background="@null"/>
+
+        <ImageButton
+            android:layout_width="175dp"
+            android:layout_height="160dp"
+            android:id="@+id/btnHealing"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:src="@drawable/btnhealingselector"
+            android:scaleType="fitXY"
+            android:padding="0dp"
+            android:clickable="true"
+            android:background="@null"/>
+
+        <ImageButton
+            android:layout_width="175dp"
+            android:layout_height="160dp"
+            android:id="@+id/btnParty"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:src="@drawable/btnpartyselector"
+            android:scaleType="fitXY"
+            android:padding="0dp"
+            android:clickable="true"
+            android:background="@null"/>
+
+
+
+    </GridLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/myGridLayout">
+
+
+        <SeekBar
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:id="@+id/seekBar"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="1dp"/>
+
+        <ImageButton
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:id="@+id/btnStop"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:src="@drawable/btnstopselector"
+            android:layout_marginRight="20dp"/>
+
+        <ImageButton
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:id="@+id/btnAdd"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:src="@drawable/btnaddselector"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

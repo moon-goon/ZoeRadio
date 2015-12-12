@@ -1,0 +1,5 @@
+
+syntax: glob
+bin
+syntax: regexp
+^lib$

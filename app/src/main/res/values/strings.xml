@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Zoe Radio</string>
+    <string name="loading">Loading live streaming…</string>
+    <string name="stopped">Ending radio streaming…</string>
+    <string name="enterUrl">URL</string>
+    <string name="popupIntro">Add ore radio stations of your own…</string>
+    <string name="popupSpinner">Please select a genre</string>
+    <string name="popupHint1">Name of radio station</string>
+    <string name="popupHint2">URL (a valid radio streaming URL)</string>
+    <string name="dbAdded">New record was added successfully!</string>
+    <string name="txtStationErrorCheck">Please enter a station name</string>
+    <string name="txtUrlErrorCheck">Please enter a URL</string>
+    <string name="emptyPlaylist">Error: no streaming URL found…</string>
+    <string name="genreChill">Chill</string>
+    <string name="genreLounge">Lounge</string>
+    <string name="genreDriving">Driving</string>
+    <string name="genreWorkout">Workout</string>
+    <string name="genreHealing">Healing</string>
+    <string name="genreParty">Party</string>
+    <string name="popupAdd">Ok</string>
+    <string name="popupCancel">Cancel</string>
+
+    <string-array name="GENRE">
+        <item>Chill</item>
+        <item>Lounge</item>
+        <item>Driving</item>
+        <item>Workout</item>
+        <item>Healing</item>
+        <item>Party</item>
+    </string-array>
+
+</resources>
